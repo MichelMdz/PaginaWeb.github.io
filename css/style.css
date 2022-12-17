@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    background-image: url("/css/img/Tec.jpeg"); 
+    color: #fff;
+    text-shadow: #111 0px 0px 10px;
+
+}
+
+header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-image: radial-gradient(circle at 120.71% 50%, #acfff5 0, #91fff3 16.67%, #6ffcf2 33.33%, #3cf2f2 50%, #00e8f3 66.67%, #00def6 83.33%, #00d5fa 100%);
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.materia {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 100px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.img {
+    display: block;
+    margin-left: 30%;
+    margin-right: 70%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.primer {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 260px;
+    background-color: rgb(75, 84, 89);
+    align-items: center;
+    line-height: normal;
+}
+
+.segundo {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 280px;
+    background-color: rgb(75, 84, 89);
+}
+
+.tercer {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 180px;
+    background-color: rgb(75, 84, 89);
+}
+
+.center {
+    height: 20px;
+
+}
+
+footer .titulo-seccion,
+footer .copy {
+    color: white;
+
+}
+
+footer {
+    background-color: black;
+    margin: 0;
+    height: 250px;
+    align-items: center;
+
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales i {
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.tabla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    border: solid 2px;
+}
+
+table {
+    color: #000;
+    font-size: 18px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background-image: radial-gradient(circle at 120.71% 50%, #acfff5 0, #91fff3 16.67%, #6ffcf2 33.33%, #3cf2f2 50%, #00e8f3 66.67%, #00def6 83.33%, #00d5fa 100%);
+}
+
+th {
+
+    padding: 30px 20px;
+    font-weight: 70px;
+    text-transform: uppercase;
+
+}
+
+td {
+    background-color: white;
+    padding: 20px;
+    border-bottom: solid 2px;
+
+}
+
+td :hover {
+    color: red;
+}
+
+.titulo-trabajo {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 10px;
+    align-items: center;
+    line-height: normal;
+    font-size: 30px;
+}
+
+ul {
+    background-color: #c7fff8;
+}
+
+.lista1 {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.lista1 li {
+    font-weight: 1px;
+    padding-right: 100px;
+}
+
+li :hover {
+    color: rgb(0, 0, 0);
+}
+
+/* ................................................................... */
+
+/* @charset "utf-8"; */
+.tarjeta {
+    align-items: center;
+    float: left;
+    display: inline-block;
+    width: 300px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    padding: 2em 1em;
+    height: 450px;
+    background-color: #000;
+}
+
+.titulo {
+    font-size: 18px;
+    padding: 10px 10px 0 10px;
+    
+}
+
+.cuerpo {
+    padding: 10 px;
+}
+
+.pie {
+    background: #6699ff;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pie a {
+    text-decoration: none;
+    color: white;
+}
+
+.pie a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: ""
+}
+
+
+.foto {
+    width: 280px;
+}
+.separador{
+    width: 10px;
+}
